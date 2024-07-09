@@ -17,6 +17,9 @@
 .dark-2{
    color: #474747;
 }
+.text-center{
+    text-align: center;
+}
 /*header style*/
 .header{
 background-image: url("../images/developer.png"),url("../images/header_bg.png");
@@ -86,6 +89,7 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+}
 /*about-styles*/
 .about{
     border-radius: 10px;
@@ -99,4 +103,13 @@ main{
 }
 .item-description{
     font-weight: 600;
+}
+/*skill section style*/
+.skils-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 28px;
+    box-shadow: 0px 6px 50px 0px black;
 }
